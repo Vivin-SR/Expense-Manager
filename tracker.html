@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracker page</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <section>
+    <h2><a href="#" class="logo"></a></h2>
+    <img  id="LOGO" src="logo.png">
+    <nav>
+    <ul>
+        <li><a href="home.html" class="link">Home</a></li>
+        <li><a href="tracker.html" class="link">Tracker</a></li>
+        <li><a href="invest.html" class="link">Investing</a></li>
+        <li><a href="chart.html" class="link">Chart</a></li>
+        <li><a href="#" class="link">Login</a></li>
+    </ul>
+    </nav>
+  </section>
+  <h1 class="topic">Expense Manager</h1>
+    <div class="main">
+        <div class="container">
+            <div class="heading1">
+                <p>Your Current Balance</p>
+                <h3><span id="symbol">Rs.</span><span id="balance">0</span></h3>
+            </div>
+            <div class="form">
+                <h3>Add new transaction</h3><br>
+                <div class="form-group radio">
+                    <label for="type"><b>Type</b></label><br>
+                    <div class="radio_group">
+                        <input type="radio" value="income" name="type" id="income" checked>
+                        <label for="type">Income</label><br>
+                        <input type="radio" value="expense" name="type" id="expense" placeholder="Expense">
+                        <label for="type">Expense</label>
+                    </div>
+                </div><br>
+                <div class="source">
+                  <label for="name"><b>Source</b></label>
+                  <input type="text" name="name" placeholder="source of income/expense" id="name">
+              </div><br>
+                <div class="source">
+                    <label for="amount"><b>Amount</b></label>
+                    <input type="number" placeholder="enter amount" name="amount" id="amount">
+                </div><br>
+                <button class="btn btn-block" id="add_transaction">Add Transaction</button>
+            </div><br>
+            <h3 class="heading2">Your Transactions :</h3><br>
+            <div class="conatiner_of_list_of_transactions">
+                <ul id="list_of_transactions">
+                        <div class="right">
+                            <button class="link">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                        </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <p class="footer">© THE B-10</p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" ></script>
+    <script src="script.js"></script>
+</body>
+</html>

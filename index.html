@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url('bg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 100vh;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+        }
+        #b1{
+            text-decoration: none;
+            color:white;
+        }
+        button{
+            background:transparent;
+            position: relative;
+            height:80px;
+            width: 600px;
+            margin: 20px 10px;
+            text-align: center;
+            font-weight: bold;
+            border: 2px solid white;
+            color:black;
+            font-size: 25px;
+            overflow: hidden;
+        }
+        button:hover span{
+            width:100%;
+        }
+        span{
+            background:#0068b2;
+            height: 100%;
+            width: 0;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: 0.5s;
+        }
+    </style>
+        <button><a href="home.html" id="b1"><span></span> Click here to enter our expense manager</a></button>
+</body>
+</html>

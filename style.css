@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    left: 5px;
+    padding: 10px 20px;
+    font-size: 25px;
+    padding-left: 330px;
+    padding-top: 50px;
+}
+li{
+    padding-right: 20px;
+}
+.link{
+    text-decoration: none;
+    cursor: pointer;
+    background-color:#13263a;
+    border-radius: 8px;
+    padding: 9px 10px;
+    color:white;
+    font-size: 19px;
+    float: right;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-weight: 100px;
+    font-family: sans-serif;
+}
+.link:hover{
+        background-color:#3d82cc;
+        opacity: 50%;
+    }
+section{
+    position: relative;
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #13263a;
+}
+#LOGO{
+   height: 150px;
+   width: 150px;
+   padding-top: 10px;
+   padding-right: 10px;
+   position:absolute;
+  
+}
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+}
+.content .Info h2{
+    color: cornflowerblue;
+    font-size: 55px;
+    
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 40px;
+    margin-bottom: 30px;
+
+}
+.content .Info h2 span{
+    color:#fff ;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+.content .Info p{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    font-style: italic;
+    
+
+}
+.content .Info-btn{
+    color: #fff;
+    background:#226A80 ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: background;
+
+}
+.content .Info-btn:hover{
+    background: #0C4F60;
+
+
+}
+
+.media-icons{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.media-icons a{
+    position: relative;
+    color: rgb(114, 107, 107);
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property: transform;
+
+}
+.media-icons a:not(:last-child){
+    margin-right: 60px;
+
+}
+.media-icons a:hover{
+    transform: scale(1.2);
+}
+#copy{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 30px;
+}

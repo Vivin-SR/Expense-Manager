@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    left: 5px;
+    padding: 10px 20px;
+    font-size: 25px;
+    padding-left: 890px;
+    padding-top: 50px;
+}
+li{
+    padding-right: 128px;
+}
+.link{
+    text-decoration: none;
+    cursor: pointer;
+    background-color:#13263a;
+    border-radius: 8px;
+    padding: 9px 10px;
+    color:white;
+    font-size: 19px;
+    float: right;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-weight: 100px;
+    font-family: sans-serif;
+}
+.link:hover{
+        background-color:#3d82cc;
+        opacity: 50%;
+ }
+ section{
+    position: relative;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #13263a;
+    padding-bottom: 10px;
+}
+.topic{
+    border-top: #d4d4d4 groove;
+}
+ #LOGO{
+    height: 150px;
+    width: 150px;
+    padding-top: 10px;
+    padding-right: 10px;
+    position:absolute;
+    padding-bottom: 10px;
+ }
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.topic,.footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #13263a;
+    color: whitesmoke;
+    font-family: 'Red Hat Text', sans-serif;
+}
+.main{
+    flex-grow: 1;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    margin: 20px auto;
+    align-self: center;
+}
+.heading1{
+    background-color:#13263a;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.form{
+    background-color: #d4d4d4;
+    padding: 20px;
+    width: 400px;
+}
+.source {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+input{
+    padding: 5px 10px;
+}
+.btn{
+    width:100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    background-color:#13263a;
+    color: white;
+}
+.btn:hover{
+    background-color: #13263a;
+    opacity: 60%;
+}
+ul {
+    list-style: none;
+    width: 400px;
+}
+label{
+    display: block;
+    align-self: center;
+}
+.radio_group{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.transaction{
+    margin: 10px 0;
+    color: white;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.income{
+    background-color: #13be3e;
+}
+.expense{
+    background-color: #d31b1b;
+}
+.transaction .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.heading2{
+    margin-top: 10px;
+    text-align: center;
+}

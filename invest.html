@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    left: 5px;
+    padding: 10px 20px;
+    font-size: 25px;
+    padding-left: 400px;
+    padding-top: 50px;
+}
+li{
+    padding-right: 128px;
+}
+.link{
+    text-decoration: none;
+    cursor: pointer;
+    background-color:#13263a;
+    border-radius: 8px;
+    padding: 9px 10px;
+    color:white;
+    font-size: 19px;
+    float: right;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-weight: 100px;
+    font-family: sans-serif;
+}
+.link:hover{
+        background-color:#3d82cc;
+        opacity: 50%;
+ }
+ section{
+    position: relative;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #13263a;
+    padding-bottom: 10px;
+}
+#LOGO{
+    height: 150px;
+    width: 150px;
+    padding-top: 10px;
+    padding-right: 10px;
+    position:absolute;
+    padding-bottom: 10px;
+ }
+        body{
+            background-color:white;
+            color:#13263a ;
+            text-align: center;
+        }
+
+        #simple{
+            text-align: center;
+            font-size: 30px;
+        }
+        .media-icons{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.media-icons a{
+    position: relative;
+    color: rgb(114, 107, 107);
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property: transform;
+
+}
+.media-icons a:not(:last-child){
+    margin-right: 60px;
+
+}
+.media-icons a:hover{
+    transform: scale(1.2);
+}
+#copy{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 30px;
+}
+footer{
+    text-align: center;
+    background-color: #13263a;
+    position: relative;
+    padding-bottom: 0px;
+}
+#para{
+    padding-left: 260px;
+    width: 1000px;
+}
+    </style>
+        <section>
+            <h2><a href="#" class="logo"></a></h2>
+            <img  id="LOGO" src="logo.png">
+            <nav>
+            <ul>
+                <li><a href="home.html" class="link">Home</a></li>
+                <li><a href="tracker.html" class="link">Tracker</a></li>
+                <li><a href="invest.html" class="link">Investing</a></li>
+                <li><a href="chart.html" class="link">Chart</a></li>
+                <li><a href="#" class="link">Login</a></li>
+            </ul>
+            </nav>
+          </section><br><br>
+    <h1>Invest</h1><br>
+    <h3 id="para">Investing in stocks means buying shares of ownership in a public company. Those small shares are known as the company's stock, and by investing in that stock, you're hoping the company grows and performs well over time</h3>
+    <script src="invest.js"></script>
+    <br><button id="btn" onclick="myFun()">Click to view details</button><br><br>
+    <div id="simple">
+    <center><p id="p1">Change Percentage</p><br>
+    <p id="p2">Change POint</p><br>
+    <p id="p3">Price</p><br>
+    <p id="p4">Total Vol</p></center>
+
+    </div>
+    <br><br><br><br><br>
+
+   
+</body>
+<footer>
+    <div class="media-icons">
+        <a href="#" ><i class="fa fa-facebook-f"></i></a>
+        <a href="#" ><i class="fa fa-twitter"></i></a>
+        <a href="#" ><i class="fa fa-instagram"></i></a>
+    </div>
+    <center><p id="copy">© THE B-10</p></center>
+</footer>
+</html>
